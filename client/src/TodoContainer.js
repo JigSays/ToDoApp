@@ -6,13 +6,14 @@ import MenuPanel from './components/MenuPanel';
 
 class TodoContainer extends Component {
     state = {
+      tags: ['spanish', 'housework', 'social', 'fitness', 'web dev']
     };
   
     render() {
       return (
         <Grid fluid>
               <Row>
-                <TagPanel />
+                <TagPanel tags={this.state.tags}/>
                 <TodoPanel />
                 <MenuPanel />
               </Row>
