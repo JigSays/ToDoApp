@@ -1,9 +1,10 @@
 import React from "react";
 import "./MenuPanel.css";
+import { Grid, Row, Col } from 'react-bootstrap';
 
 const MenuPanel = props => (
-    <div className="menu-panel">
-    </div>
+    <Col md={1} className="menu-panel">
+    </Col>
 );
 
 export default MenuPanel;
