@@ -1,15 +1,21 @@
 import React, {Component} from "react";
+import TagPanel from './components/TagPanel';
+import TodoPanel from './components/TodoPanel';
+import MenuPanel from './components/MenuPanel';
 
-class Counter extends Component {
+class TodoContainer extends Component {
     state = {
     };
   
     render() {
       return (
-        <div className="container-fluid">
+        <div>
+                <TagPanel />
+                <TodoPanel />
+                <MenuPanel />
         </div>
       );
     }
   }
   
-  export default Counter;
+  export default TodoContainer;

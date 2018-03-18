@@ -1,0 +1,7 @@
+.tag-panel{
+    height: 100vh;
+    background: #fcfcfc;
+    border-right: 1px solid #e2e2e2;
+    width: 10%;
+    float: left;
+}
