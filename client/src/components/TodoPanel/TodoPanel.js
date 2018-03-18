@@ -4,7 +4,7 @@ import "./TodoPanel.css";
 
 
 const TodoPanel = props => (
-    <Col md={9} className="todo-panel">
+    <Col xs={9} className="todo-panel">
     </Col>
 );
 
